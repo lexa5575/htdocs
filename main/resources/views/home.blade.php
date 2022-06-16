@@ -2,7 +2,7 @@
 @section('title-block')Home page
 @endsection
 @section('content')
-    <h1>Главная страница Voz</h1>
+    <h1>Главная страница</h1>
 @endsection
 
 @section('aside')
