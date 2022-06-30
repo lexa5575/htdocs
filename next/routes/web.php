@@ -15,5 +15,10 @@ Route::get('about', function () {
     return view('about');
 })->name('about-form');
 
+
 Route::post('/contact/submit', 'App\Http\Controllers\ContactController@submit')
     ->name('contact-button');
+
+Route::get('end', function () {
+    return view('end');
+})->name('end-form');;
