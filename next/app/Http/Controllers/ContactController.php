@@ -13,7 +13,7 @@ class ContactController extends Controller
        $contact = new Contact();
        $contact->name = $request->input('name');
        $contact->email = $request->input('email');
-        $contact->subject = $request->input('subject');
+       $contact->subject = $request->input('subject');
        $contact->message = $request->input('message');
 
        $contact->save();
