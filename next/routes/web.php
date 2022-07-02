@@ -22,3 +22,5 @@ Route::post('/contact/submit', 'App\Http\Controllers\ContactController@submit')
 Route::get('end', function () {
     return view('end');
 })->name('end-form');;
+
+
